@@ -1,21 +1,44 @@
-logica de la reserva de canchas
+# cb-readme
 
-Pasos que seguiria el usuario 
+Repositorio de documentación inicial para la lógica de **reserva de canchas** del equipo **Los Piratas Dev**.
 
-1-el usuario eligiria la cancha en la vista de canchas disponibles
+## 👥 Equipo
 
-2-el usuario debera elegir el dia que desa alquilar segun las opciones disponibles 
+- **Los Piratas Dev**
 
-3-luego apareceran los horarios de los cuales elegira el que mas desee y el que se encuentre disponible
+## 📂 Estructura actual del proyecto
 
-4-realiza la reserva
+Este repositorio actualmente contiene un único archivo:
 
+- `README.md`: documento principal con la descripción funcional del proyecto.
 
+## 🧠 Objetivo del proyecto
 
+Definir de forma clara el flujo base de una reserva de canchas para que luego pueda implementarse en una aplicación.
 
+## 🔄 Flujo funcional de reserva
 
+1. La persona usuaria visualiza las canchas disponibles.
+2. Selecciona la cancha que desea reservar.
+3. Elige una fecha habilitada.
+4. Elige un horario disponible para esa fecha.
+5. Confirma la reserva.
 
+## ✅ Reglas mínimas de negocio
 
+- Mostrar solo canchas disponibles.
+- Mostrar solo fechas habilitadas para reservar.
+- Evitar doble reserva del mismo horario para la misma cancha.
+- Confirmar la reserva únicamente cuando cancha, fecha y horario sean válidos.
 
+## 🚀 Próximas mejoras sugeridas
 
-"# cb-readme" 
+- Registrar usuarios.
+- Guardar historial de reservas.
+- Permitir cancelaciones y reprogramaciones.
+- Enviar confirmaciones al usuario.
+
+## 📌 Estado actual
+
+- Proyecto en etapa inicial de documentación funcional.
+- Aún no hay código de implementación en el repositorio.
